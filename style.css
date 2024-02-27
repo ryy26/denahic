@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+nav a {
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+nav a:hover,
+nav a.active {
+    color: #FFC0CB;
+}
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: #1f242d;
+    font-size: 100px;
+    color: #fff;
+    font-weight: 700;
+}
+section:nth-child(odd) {
+    background: #323946;
+}   
+
+.logo img {
+    width: 70px; 
+}
+
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 100px;
+}
+
+.active {
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; /* Mengatur tata letak teks ke tengah */
+}
+
+/*home*/
+section h2 {
+    font-size: 150px; 
+    margin-bottom: 70px;
+}
+
+section p {
+    font-size:50px; 
+}
+
+/* about */
+section {
+    position: relative; /* Memberikan konteks pemosisian untuk elemen h3 */
+}
+
+section h3 {
+    font-size: 100px; 
+    margin-bottom: 40px; 
+    position: absolute; /* Menggunakan pemosisian absolut */
+    right: 30px; /* Menggeser huruf ke kanan sejauh 30 piksel */
+    left: -950px; /* Menggeser huruf ke kiri sejauh 500 piksel */
+    top: 110px; /* Menggeser huruf ke bawah sejauh 50 piksel */
+    bottom: 20px; /* Menggeser huruf ke bawah sejauh 20 piksel */
+
+    text-decoration: underline; /* Menambahkan underline pada huruf */
+    text-decoration-thickness: 4px; /* Mengatur ketebalan underline */
+    text-underline-offset: 10px;
+}
+
+
+
+
+section p2 {
+    font-size:50px; 
+}
+
+/*denah*/
+section h4 {
+    font-size: 100px; 
+    margin-bottom: 20px; 
+   
+}
+
+section p3 {
+    font-size: 10px; 
+}
+
+/*map*/
+section h5 {
+    font-size: 10px; 
+    margin-bottom: 10px; 
+}
+
+section p4 {
+    font-size: 10px;
+}
+
+/*contact*/
+section h2 {
+    font-size: 150px; 
+    margin-bottom: 70px; 
+}
+
+section p {
+    font-size:50px;
+}
+
